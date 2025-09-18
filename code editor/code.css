@@ -1,0 +1,64 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+ display: flex;
+  background: yellow;
+}
+
+.leftpart{
+  flex-basis: 50%;     
+  background: purple;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  flex-basis: 33%;
+  
+  background: purple;
+
+}
+.leftpart .content label{
+  background: #000;
+  display: block;
+  color: white;
+
+  padding: 10px 0px;
+}
+
+.leftpart .content textarea{
+  width: 100%;
+  height: 82%;
+  outline: none;
+  border: none;
+  background: #000;
+  color: white;
+  ;
+}
+.rightpart{
+  flex-basis: 50%;
+  background:violet;
+  height: 100%;
+}
+
+.rightpart label{
+  display: block;
+  padding: 10px;
+ background-color: rgb(41,46,141);
+  color: white;
+  width: 100%;
+}
+
+.rightpart iframe{
+  display: block;
+  width: 100%;
+  height: 80%;
+  border: 1px solid red;
+}
+
